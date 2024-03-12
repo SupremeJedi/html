@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title> 
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <form action="action.php">
+        <input type="text" placeholder="Enter Username">
+        <br><br>
+        <input type="password" placeholder="Enter Password">
+    </form>
+    <h3>Select Your Class</h3>
+    <label for="101">
+        <input type="radio" value="Class IX" name="class" id="101">Class IX
+    </label>
+    <label for="102">
+        <input type="radio" value="Class X" name="class" id="102">Class X
+    </label>
+
+    <br>
+
+    <h3>Favourite Subject/s</h3>
+    <label for="physics">
+        <input type="checkbox"value="Physics"name="Subject" id="101">Physics
+    </label>
+    <label for="Chemistry">
+        <input type="checkbox"value="Chemistry"name="Subject" id="102">Chemistry
+    </label>
+    <label for="Maths">
+        <input type="checkbox"value="Maths"name="Subject" id="103">Maths
+    </label>
+    <br><br>
+    <textarea name="feedback" id="101" placeholder="feedback"></textarea>
+    <br><br>
+    <p>Your City
+    <select name="city" id="101">
+
+        <option value="delhi">delhi</option>
+        <option value="mumbai">mumbai</option>
+    </select></p>
+    <br>
+    <input type="submit" value="Submit">
+    
+</body>
+</html>
